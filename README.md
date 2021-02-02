@@ -31,7 +31,7 @@ Using your HTTP tool of choice, do the following as Method "POST": localhost:808
 
 This will return a randomly generated 12 character alphanumeric string as a voucherNumber Object in JSON.
 
-###### Requirements not met
+###### Requirements not yet met
 
-######• Only one voucher to be generated per Medicare number. If a request from the same number comes through, it should return the voucher number generated previously.
-######• Include server side validation - unable to validate embedded class*
+###### • Only one voucher to be generated per Medicare number. If a request from the same number comes through, it should return the voucher number generated previously.
+###### • Include server side validation - unable to validate embedded class*
