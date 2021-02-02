@@ -1,4 +1,10 @@
 package au.gov.nsw.service.vouchersignup
 
-class MedicareCard {
-}
+import javax.persistence.Embeddable
+
+@Embeddable
+class MedicareCard (
+		var number: Long? = null,
+		var expiryMonth: Int? = null,
+		var expiryYear: Int? = null
+)
